@@ -3,6 +3,9 @@ source 'https://ruby.taobao.org/'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.5.2'
+
+gem 'bootstrap-sass','2.3.2.0'
+
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
 # Use SCSS for stylesheets
@@ -35,9 +38,9 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
-  gem 'rspec-rails','2.13.1'
+  gem 'rspec-rails','3.3.2'
   gem 'capybara','2.1.0'
-  gem 'guard-rspec','2.5.0'
+  gem 'guard-rspec','4.6.0'
 end
 
 group :development do
